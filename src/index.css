@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Comfortaa;
+}
+
+body {
+  position: relative;
+  background-color: #F9FAFF;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 180%;
+  letter-spacing: 0px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
+
+li {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+}
+
+li:hover {
+  border-bottom: 2px solid black;
+}
+
+.navbar {
+  max-width: 1170px;
+  margin: 12px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  max-width: 1170px;
+  margin: 54px auto;
+  display: flex;
+}
+
+.header-title {
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #FDC435;
+}
+
+.header-desc {
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  margin-top: 12px;
+}
+
+.header-description {
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #828282;
+  margin-top: 32px;
+}
+
+.header-img {
+  position: absolute;
+  top: -12px;
+  right: 0;
+  z-index: auto;
+}
+
+.header-btn-box {
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.projects-btn {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: #FDC435;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.projects-btn:hover {
+  transform: scale(1.1);
+}
+
+.projects-btn:active {
+  transform: scale(1);
+}
+
+.linkedin-btn {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  padding: 8px 24px;
+  border: solid 2px #25282B;
+  border-radius: 8px;
+  background-color: transparent;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.linkedin-btn:hover {
+  transform: scale(1.1);
+}
+
+.linkedin-btn:active {
+  transform: scale(1);
+}
+
+.cards-box {
+  max-width: 1170px;
+  margin: 255px auto 0 auto;
+}
+
+.cards-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards-title {
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.color {
+  background-color: #FDC435;
+  width: 100px;
+  height: 4px;
+}
+
+.card {
+  margin: 80px auto;
+  width: 992px;
+  height: 524px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 24px;
+  box-shadow: 0px 6px 64px 0px #7090B01A;
+}
+
+.card-img {
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.card-img-2 {
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+}
+
+.card-title {
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  margin-top: 146px;
+  margin-left: 50px;
+}
+
+.card-desc {
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  margin-left: 50px;
+  margin-top: 24px;
+  color: #828282;
+}
+
+.view-btn {
+  background-color: transparent;
+  border-radius: 24px;
+  padding: 8px 24px;
+  border: solid 2px #25282B;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  margin-left: 50px;
+  margin-top: 24px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.view-btn:hover {
+  transform: scale(1.1);
+}
+
+.view-btn:active {
+  transform: scale(1);
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.social-icon {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+.social-icon:active {
+  transform: scale(1);
+}
+
+.footer-text {
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #828282;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 50px;
+}
